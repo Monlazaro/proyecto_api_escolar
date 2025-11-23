@@ -37,27 +37,30 @@ proyecto_api_escolar/
 
 ## Endpoints disponibles
 - Estudiantes (/api/students)
-Método                         Endpoint                           Descripción
-POST                       /api/students                   Crear un nuevo estudiante
-GET                        /api/students                   Obtener todos los estudiantes
-GET                    /api/students/{student_id}          Obtener un estudiante por ID
-PUT                    /api/students/{student_id}          Actualizar un estudiante
-DELETE                /api/students/{student_id}           Eliminar un estudiante
+| Método | Endpoint                          | Descripción                          |
+|--------|-----------------------------------|--------------------------------------|
+| POST   | `/api/students`                   | Crear un nuevo estudiante            |
+| GET    | `/api/students`                   | Obtener todos los estudiantes        |
+| GET    | `/api/students/{student_id}`      | Obtener un estudiante por ID         |
+| PUT    | `/api/students/{student_id}`      | Actualizar un estudiante             |
+| DELETE | `/api/students/{student_id}`      | Eliminar un estudiante               |
 
 - Materias (/api/subjects)
-Método                         Endpoint                             Descripción
-POST                        /api/subjects                   Crear una nueva materia
-GET                   /api/subjects/{subject_id}            Obtener una materia por ID
-PUT                   /api/subjects/{subject_id}            Actualizar una materia
-DELETE                /api/subjects/{subject_id}            Eliminar una materia
+| Método | Endpoint                           | Descripción                     |
+|--------|------------------------------------|---------------------------------|
+| POST   | `/api/subjects`                    | Crear una nueva materia         |
+| GET    | `/api/subjects/{subject_id}`       | Obtener una materia por ID      |
+| PUT    | `/api/subjects/{subject_id}`       | Actualizar una materia          |
+| DELETE | `/api/subjects/{subject_id}`       | Eliminar una materia            |
 
 - Calificaciones (/api/grades)
-Método                         Endpoint                             Descripción
-POST                         /api/grades                    Crear una nueva calificación
-PUT                 /api/grades/{grade_id}                  Actualizar una calificación
-DELETE             /api/grades/{grade_id}                   Eliminar una calificación
-GET           /api/grades/{grade_id}/student/{student_id}   Obtener una calificación específica
-GET           /api/grades/student/{student_id}              Obtener todas las calificaciones de un estudiante
+| Método | Endpoint                                            | Descripción                                      |
+|--------|-----------------------------------------------------|--------------------------------------------------|
+| POST   | `/api/grades`                                       | Crear una nueva calificación                     |
+| PUT    | `/api/grades/{grade_id}`                            | Actualizar una calificación                      |
+| DELETE | `/api/grades/{grade_id}`                            | Eliminar una calificación                        |
+| GET    | `/api/grades/{grade_id}/student/{student_id}`        | Obtener una calificación específica              |
+| GET    | `/api/grades/student/{student_id}`                  | Obtener todas las calificaciones de un estudiante|
 
 ## Ejemplos de uso (Postman)
 
