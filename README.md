@@ -64,7 +64,7 @@ proyecto_api_escolar/
 
 ## Ejemplos de uso (Postman)
 
-**Crear un estudiante**
+**1.- Crear un estudiante**
 * Método: POST
 * URL: http://localhost:8081/api/students
 * Body >> raw >> JSON:
@@ -74,7 +74,7 @@ proyecto_api_escolar/
   "email": cvaldez27@alumnos.uaq.mx
   }
 
-**Crear una materia**
+**2.- Crear una materia**
    * Método: POST
    * URL: http://localhost:8081/api/subjects
    * Body >> raw >> JSON:
@@ -82,7 +82,7 @@ proyecto_api_escolar/
   "name": Geografía
   }
 
-**Asignar una calificación**
+**3.- Asignar una calificación**
     * Método: POST
     * URL: http://localhost:8081/api/grades
     * Body >> raw >> JSON:
@@ -92,19 +92,19 @@ proyecto_api_escolar/
       "grade": 9.8
   }
 
-**Obtener todas las calificaciones de un estudiante**
+**4.- Obtener todas las calificaciones de un estudiante**
     * Método: GET
     * URL: http://localhost:8081/api/grades/student/1
     * Send
 - se puede cambiar el ID por el que se quiere consultar, diferente a 1 ya que éste ya está asignado al alumno Aldo Ugalde Olguín.
 
-**Obtener una calificación específica**
+**5.- Obtener una calificación específica**
     * Método: GET
     * URL: http://localhost:8081/api/grades/1/student/1
     * Send
 - se pueden cambiar los ID por los que se quieren consultar, diferente a 1 ya que éste ya está asignado al alumno Aldo Ugalde Olguín.
 
-**Obtener todas las calificaciones de un estudiante**
+**6.- Obtener todas las calificaciones de un estudiante**
     bash
     curl http://localhost:8081/api/grades/student/1
 
