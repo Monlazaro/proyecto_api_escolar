@@ -83,9 +83,9 @@ proyecto_api_escolar/
   }
 
 **3.- Asignar una calificación**
-    * Método: POST
-    * URL: http://localhost:8081/api/grades
-    * Body >> raw >> JSON:
+* Método: POST
+* URL: http://localhost:8081/api/grades
+* Body >> raw >> JSON:
   {
       "student_id": 1,
       "subject_id": 1,
